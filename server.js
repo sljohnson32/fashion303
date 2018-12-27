@@ -1,4 +1,15 @@
-var express = require('express');
-var app = express();
-app.use(express.static(__dirname + '/'));
-app.listen(process.env.PORT || 8080);
+const express = require('express');
+const app = express();
+const path = require('path');
+
+app.use(express.static(path.resolve(__dirname, './build')));
+
+app.set('port', process.env.PORT || 3001);
+
+app.get('/', (request, response) => {
+  response.readFile(path.resolve(__dirname, './build', 'index.html', (err, file) => {
+    response.send(file);
+  }));
+});
+
+// module.exports = app;
