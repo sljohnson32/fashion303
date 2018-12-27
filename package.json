@@ -1,6 +1,9 @@
 {
   "name": "fashion303",
   "version": "0.1.0",
+  "engines": {
+    "node": "11.6.x"
+  },
   "private": true,
   "dependencies": {
     "express": "^4.16.4",
