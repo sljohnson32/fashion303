@@ -2,8 +2,7 @@
   "name": "fashion303",
   "version": "0.1.0",
   "engines": {
-    "node": "11.6.0",
-    "npm": "6.5.0"
+    "node": "11.6.0"
   },
   "private": true,
   "dependencies": {
