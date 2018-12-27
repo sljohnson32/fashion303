@@ -11,5 +11,3 @@ app.get('/', (request, response) => {
     response.send(file);
   }));
 });
-
-// module.exports = app;

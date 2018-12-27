@@ -5,6 +5,9 @@
     "node": "11.6.x"
   },
   "private": true,
+  "engines": {
+    "node": "11.6.x"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "react": "^16.7.0",
