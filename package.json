@@ -1,6 +1,8 @@
 {
   "name": "fashion303",
   "version": "0.1.0",
+  "homepage": "https://fashion-303.herokuapp.com/",
+  "main": "server.js",
   "engines": {
     "node": "11.6.0"
   },
